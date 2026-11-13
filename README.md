@@ -2,6 +2,8 @@
 
 Weekly demand forecasting and safety-stock planning on **541,909 real transactions** from a UK online retailer (Dec 2010 – Dec 2011). The pipeline cleans the data, compares four forecasting methods with a leakage-free backtest, classifies 3,878 products with ABC-XYZ analysis, and sets safety stock and reorder points for the top products.
 
+**In plain terms, for a planner:** use the damped-trend forecast for steady top sellers (26% less error than repeating last week's sales); expect it to run 7-21% low before the Christmas peak, so add a manual uplift; and review the 576 erratic A items by hand instead of trusting a formula. Lead time is an assumption (2 weeks).
+
 ![Forecast vs actual](outputs/charts/03_forecast_vs_actual.png)
 
 ## Key results
